@@ -149,7 +149,7 @@
     <main class="container my-5">
       <div class="row">
         <!-- 프로필 바 섹션 시작 -->
-        <section class="col-md-5 col-lg-3">
+        <section class="col-md-5 col-lg-3 order-2 order-md-1">
           <div class="bg-dark text-white text-center my-3 p-4 rounded">
             <img
               src="./images/main-profile.jpg"
@@ -219,7 +219,111 @@
         <!-- 프로필 바 섹션 끝-->
 
         <!-- 포트폴리오 섹션 시작 -->
-        <section class="col-md-7 col-lg-9">연락처</section>
+        <section class="col-md-7 col-lg-9 order-1 order-md-2">
+          <section class="text-center">
+            <div class="row pt-3 pb-5">
+              <h2 class="fs-1 fw-bold pb-3">Contact</h2>
+              <p class="text-muted">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui
+                debitis quasi adipisci nostrum veritatis natus delectus
+                mollitia, dolorem pariatur repudiandae.
+              </p>
+
+              <div class="py-4 contact mt-3 text-white">
+                <p class="fs-4 fw-bold logo-font">
+                  <i class="bi bi-telephone-fill me-3 me-lg-5"></i>010-000-0000
+                </p>
+              </div>
+
+              <div class="py-4 contact mt-3 text-white">
+                <p class="fs-4 fw-bold logo-font">
+                  <i class="bi bi-envelope-open-heart me-3 me-lg-5"></i
+                  >codehem@naver.com
+                </p>
+              </div>
+
+              <div class="py-4 contact mt-3 text-white">
+                <p class="fs-4 fw-bold logo-font">
+                  <i class="bi bi-shop me-3 me-lg-5"></i>지하철 8호선 모란역
+                  2번출구
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <hr />
+
+          <div class="row py-5 text-center">
+            <div class="col-lg-9 mx-auto">
+              <h2 class="fs-1 fw-bold pb-3">문의 사항</h2>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <label for="name" class="form-label">이름</label>
+            <input
+              type="text"
+              class="form-control border border-dark"
+              id="name"
+              placeholder="이름"
+            />
+          </div>
+
+          <div class="mb-4">
+            <label for="email" class="form-label">이메일</label>
+            <input
+              type="email"
+              class="form-control border border-dark"
+              id="email"
+              placeholder="email@abc.com"
+            />
+          </div>
+
+          <div class="mb-4">
+            <label for="profil" class="form-label">문의 사항</label>
+            <input
+              type="text"
+              class="form-control border border-dark"
+              id="profil"
+              placeholder="문의 사항을 남겨주세요."
+            />
+          </div>
+
+          <div class="form-check mb-3">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckChecked"
+              checked
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              이젠 인테리어 뉴스레터 받아보기
+            </label>
+          </div>
+
+          <button type="button" class="btn btn-dark mb-3 border border-dark">
+            전송하기
+          </button>
+          <hr />
+
+          <section class="text-center">
+            <h2 class="fs-1 fw-bold">오시는 길</h2>
+            <p class="text-muted py-3">
+              주소 : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Porro, beatae.
+            </p>
+            <div class="ratio ratio-16x9">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d25344.889313861164!2d127.1365632!3d37.4344786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sko!2skr!4v1714009783027!5m2!1sko!2skr"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </section>
+        </section>
         <!-- 포트폴리오 섹션 끝 -->
       </div>
     </main>
